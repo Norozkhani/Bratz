@@ -78,6 +78,7 @@ body {
   transition: all 0.7s;
   border-bottom: solid 5px #83368c; /*daker than background*/
   border-right: solid 5px #b253bd;
+  font-size: 1.5rem;
 }
 
 .nav-container a:hover {
@@ -110,31 +111,25 @@ body {
   border-bottom-color: transparent;
 }
 
-.nav-container a:active {
-  /*on click*/
-  border: none;
-  -ms-transform: translate(6px, 6px);
-  -webkit-transform: translate(6px, 6px);
-  transform: translate(6px, 6px); /*move LowerRight*/
-}
-
-.nav-container a:active:after,
-.nav-container a:active:before {
-  /*on click*/
-  content: none; /*Border disappears*/
-}
-
 .main-content {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 1rem;
   text-align: center;
+  font-size: 1.6rem;
+  border: 10px inset hotpink;
+  margin: 0.5rem;
+}
+
+.main-content p {
+  border: 5px inset lightpink;
+  margin: 0.7rem;
 }
 
 .main-content img {
   max-width: 200px;
-  min-width: 200px;
+  max-height: 200px;
 }
 
 /* Yasmin content */
@@ -158,6 +153,10 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 10px inset hotpink;
 }
 
 .yasmin-content img {
@@ -165,6 +164,14 @@ body {
   max-height: 200px;
 }
 
+.yasmin-content p {
+  border: 5px inset lightpink;
+  margin: 0.7rem;
+}
+
+.yasmin-content h3 {
+  font-size: 3rem;
+}
 /* Cloe Content */
 .cloe-header {
   background-color: hotpink;
@@ -185,11 +192,100 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 10px inset hotpink;
 }
 
 .cloe-content img {
   max-width: 200px;
   max-height: 200px;
+}
+.cloe-content p {
+  border: 5px inset lightpink;
+  margin: 0.7rem;
+}
+
+.cloe-content h3 {
+  font-size: 3rem;
+}
+/* jade Content */
+.jade-header {
+  background-color: hotpink;
+  background-image: url("images/pinkS.gif");
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2.3rem;
+  border-radius: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 2px 2px 2px rgb(243, 179, 245), 2px 2px 2px rgb(243, 179, 245);
+  margin: 1rem;
+  animation: blinking 3s infinite;
+}
+
+.jade-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 10px inset hotpink;
+}
+
+.jade-content img {
+  max-width: 200px;
+  max-height: 200px;
+}
+.jade-content p {
+  border: 5px inset lightpink;
+  margin: 0.7rem;
+}
+
+.jade-content h3 {
+  font-size: 3rem;
+}
+
+/* sasha Content */
+.sasha-header {
+  background-color: hotpink;
+  background-image: url("images/pinkS.gif");
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2.3rem;
+  border-radius: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 2px 2px 2px rgb(243, 179, 245), 2px 2px 2px rgb(243, 179, 245);
+  margin: 1rem;
+  animation: blinking 3s infinite;
+}
+
+.sasha-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 10px inset hotpink;
+}
+
+.sasha-content img {
+  max-width: 200px;
+  max-height: 200px;
+}
+.sasha-content p {
+  border: 5px inset lightpink;
+  margin: 0.7rem;
+}
+
+.sasha-content h3 {
+  font-size: 3rem;
 }
 
 /* Media query */
@@ -201,8 +297,8 @@ body {
   }
   .main-content img {
     padding: 1rem;
-    max-width: 400px;
-    max-height: 400px;
+    width: 400pxrem;
+    height: 350px;
   }
   .yasmin-content {
     flex-direction: row;
@@ -213,6 +309,39 @@ body {
     text-align: center;
   }
   .yasmin-feautures {
+    flex-direction: column;
+  }
+  .cloe-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .cloe-apperance {
+    justify-content: center;
+    text-align: center;
+  }
+  .cloe-feautures {
+    flex-direction: column;
+  }
+  .jade-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .jade-apperance {
+    justify-content: center;
+    text-align: center;
+  }
+  .jade-feautures {
+    flex-direction: column;
+  }
+  .sasha-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .sasha-apperance {
+    justify-content: center;
+    text-align: center;
+  }
+  .sasha-feautures {
     flex-direction: column;
   }
 }
