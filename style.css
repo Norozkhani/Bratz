@@ -14,6 +14,16 @@ body {
   );
 }
 
+.dark-mode {
+  background: rgb(82, 15, 64);
+  background: radial-gradient(
+    circle,
+    rgba(82, 15, 64, 1) 0%,
+    rgba(64, 25, 91, 1) 100%
+  );
+  color: white;
+}
+/*
 .circle {
   width: 50px;
   height: 50px;
@@ -24,7 +34,7 @@ body {
   pointer-events: none;
   opacity: 26%;
 }
-
+*/
 .main-header {
   background-color: hotpink;
   background-image: url("images/pinkS.gif");

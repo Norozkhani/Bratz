@@ -9,7 +9,7 @@ function yasmin(e) {
 let yasminButton = document.getElementById('yasmin');
 yasminButton.addEventListener('click', yasmin);
 
-*/
+
   function moveCircle(e) {
     let circle = document.getElementById('circle');
     circle.style.top = e.clientY + 'px';
@@ -17,3 +17,10 @@ yasminButton.addEventListener('click', yasmin);
 }
 
 window.addEventListener('mousemove', moveCircle);
+
+*/
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
