@@ -23,6 +23,12 @@ body {
   );
   color: white;
 }
+
+.dark-button {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
 /*
 .circle {
   width: 50px;
