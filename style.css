@@ -28,19 +28,9 @@ body {
   position: fixed;
   top: 1rem;
   left: 1rem;
+  padding: 0.31rem;
+  border-radius: 50%;
 }
-/*
-.circle {
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  background-color: hotpink;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  opacity: 26%;
-}
-*/
 .main-header {
   background-color: hotpink;
   background-image: url("images/pinkS.gif");
