@@ -152,7 +152,12 @@ body {
 
 .yasmin-header {
   background-color: hotpink;
-  background-image: url("images/pinkS.gif");
+  /*background-image: url("images/pinkS.gif"); */
+  background: radial-gradient(
+    circle,
+    rgb(234, 175, 218) 0%,
+    rgb(194, 130, 240) 100%
+  );
   color: black;
   text-align: center;
   padding: 1rem;
@@ -191,7 +196,12 @@ body {
 /* Cloe Content */
 .cloe-header {
   background-color: hotpink;
-  background-image: url("images/pinkS.gif");
+  /*background-image: url("images/pinkS.gif"); */
+  background: radial-gradient(
+    circle,
+    rgb(234, 175, 218) 0%,
+    rgb(194, 130, 240) 100%
+  );
   color: black;
   text-align: center;
   padding: 1rem;
@@ -229,7 +239,12 @@ body {
 /* jade Content */
 .jade-header {
   background-color: hotpink;
-  background-image: url("images/pinkS.gif");
+  /*background-image: url("images/pinkS.gif"); */
+  background: radial-gradient(
+    circle,
+    rgb(234, 175, 218) 0%,
+    rgb(194, 130, 240) 100%
+  );
   color: black;
   text-align: center;
   padding: 1rem;
@@ -268,7 +283,12 @@ body {
 /* sasha Content */
 .sasha-header {
   background-color: hotpink;
-  background-image: url("images/pinkS.gif");
+  /*background-image: url("images/pinkS.gif"); */
+  background: radial-gradient(
+    circle,
+    rgb(234, 175, 218) 0%,
+    rgb(194, 130, 240) 100%
+  );
   color: black;
   text-align: center;
   padding: 1rem;
